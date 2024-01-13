@@ -36,7 +36,11 @@ Puedes personalizar las respuestas del chatbot modificando la conversación pree
 
 Ejemplos
 Enlace al video de demostración
-<video src="concepto.mp4" controls></video>
+
+
+https://github.com/Rsolitario/des-connect/assets/6273761/d48ce120-e526-40c7-9c2c-c12bee507b9c
+
+
 
 ¡Disfruta usando Des-Connect y experimenta con diferentes conversaciones!
 
