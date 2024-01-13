@@ -12,16 +12,16 @@ Las siguientes bibliotecas de Python deben estar instaladas:
 ## Instalación
 Clona este repositorio:
 Copiar
-git clone https://github.com/tu-usuario/des-connect.git
+git clone https://github.com/Rsolitario/des-connect.git
 Navega al directorio del proyecto:
 Copiar
 cd des-connect
 Instala las dependencias requeridas:
-basic
 
 ```python
 pip install -r requirements.txt
 python -m spacy download es_core_news_lg
+```
 
 ## Uso
 Ejecuta la aplicación Flask:
