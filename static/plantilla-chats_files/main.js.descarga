@@ -1,0 +1,27 @@
+const picker = new EmojiButton();
+const trigger = document.querySelector('.trigger');
+const message = document.querySelector('#message');
+
+picker.on('emoji', selection => {
+    message.value += selection;
+});
+
+trigger.addEventListener('click', () => picker.togglePicker(trigger));
+
+document.querySelector('#cmBack').addEventListener('click', () => {
+    document.querySelector('#cmChats').style.display = 'block';
+    document.querySelector('#cmSearch').style.display = 'block';
+    document.querySelector('#cmMessages').style.display = 'none';
+});
+
+const chatItem = document.querySelectorAll('.cm-chat-item');
+chatItem.forEach((item, index) => {
+    item.addEventListener('click', () => {
+        if(window.innerWidth < 767){
+            document.querySelector('#cmChats').style.display = 'none';
+            document.querySelector('#cmSearch').style.display = 'none';
+            document.querySelector('#cmMessages').style.display = 'block';
+        }
+        
+    });
+});
